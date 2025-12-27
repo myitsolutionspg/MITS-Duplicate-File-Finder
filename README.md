@@ -1,12 +1,14 @@
-# MITS Duplicate File Finder (PowerShell + WPF)
+# MITS Duplicate File Finder
 
 **Author:** Melky Warinak  
-**Organisation:** My IT Solutions (PNG) Ltd  
+**Organisation:** My IT Solutions (PNG)
+
 **Website:** myitsolutionspg.com  
 
-A PowerShell + WPF graphical tool for safely detecting, reviewing, and removing duplicate files using size grouping and optional SHA-256 content hashing. Designed for large folders, archives, OS images, and file servers.
+A PowerShell + graphical tool for safely detecting, reviewing, and removing duplicate files using size grouping and SHA-256 content hashing. Designed for large folders, archives, OS images, and file servers.
 
 ---
+![Sample DFF gui](docs/dff-gui.png)
 
 ## 1. Purpose
 
@@ -29,7 +31,7 @@ The solution consists of two scripts:
 
 | File | Purpose |
 |---|---|
-| `MITS-DuplicateFileFinder-GUI.ps1` | WPF GUI front-end |
+| `MITS-DuplicateFileFinder-GUI.ps1` | WPF GUI front-end | 
 | `Find-DuplicateFiles.ps1` | Backend scanning & hashing engine |
 
 The GUI calls the scanner script during execution.
@@ -197,17 +199,6 @@ This is the most important part of the tool.
 | **GroupId** | Duplicate group identifier |
 | **FullHash** | SHA-256 hash |
 
-### 8.3 Long Text Handling (No Horizontal Scrollbar)
-
-For **FullPath**, **KeepPath**, and **FullHash**:
-
-- `Width="2*"` (or similar)
-- `TextWrapping="NoWrap"`
-- `TextTrimming="CharacterEllipsis"`
-- Tooltip shows the full value on hover
-
-This keeps the grid clean and readable while preserving access to full data.
-
 ---
 
 ## 9. Filter Box
@@ -267,7 +258,6 @@ All outputs are written to the `out` directory:
 
 ## 13. Known Design Decisions
 
-- No horizontal scrollbar (by design)
 - Emphasis on readability and safety
 - CSV files act as the authoritative record
 - GUI focuses on decision-making, not raw data dumping
@@ -277,4 +267,4 @@ All outputs are written to the `out` directory:
 ## 14. Disclaimer
 
 This tool can move or delete files. Always review CSV outputs and test with WhatIf mode first.  
-My IT Solutions (PNG) Ltd and the author are not liable for data loss due to misuse.
+My IT Solutions (PNG) and the author are not liable for data loss due to misuse.
