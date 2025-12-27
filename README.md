@@ -257,7 +257,6 @@ All outputs are written to the `out` directory:
 
 ## 13. Known Design Decisions
 
-- No horizontal scrollbar (by design)
 - Emphasis on readability and safety
 - CSV files act as the authoritative record
 - GUI focuses on decision-making, not raw data dumping
