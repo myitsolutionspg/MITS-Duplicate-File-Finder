@@ -30,8 +30,7 @@ The solution consists of two scripts:
 
 | File | Purpose |
 |---|---|
-| `MITS-DuplicateFileFinder-GUI.ps1` | WPF GUI front-end |
-
+| `MITS-DuplicateFileFinder-GUI.ps1` | WPF GUI front-end | 
 | `Find-DuplicateFiles.ps1` | Backend scanning & hashing engine |
 
 The GUI calls the scanner script during execution.
