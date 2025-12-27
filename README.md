@@ -6,7 +6,7 @@
 **Website:** myitsolutionspg.com  
 
 A PowerShell + graphical tool for safely detecting, reviewing, and removing duplicate files using size grouping and SHA-256 content hashing. Designed for large folders, archives, OS images, and file servers.
-
+![Sample CA report](docs/dff-gui.png)
 ---
 
 ## 1. Purpose
