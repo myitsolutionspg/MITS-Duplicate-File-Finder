@@ -1,7 +1,7 @@
-# MITS Duplicate File Finder (PowerShell + WPF)
+# MITS Duplicate File Finder
 
 **Author:** Melky Warinak  
-**Organisation:** My IT Solutions (PNG) Ltd  
+**Organisation:** My IT Solutions (PNG) 
 **Website:** myitsolutionspg.com  
 
 A PowerShell + WPF graphical tool for safely detecting, reviewing, and removing duplicate files using size grouping and optional SHA-256 content hashing. Designed for large folders, archives, OS images, and file servers.
