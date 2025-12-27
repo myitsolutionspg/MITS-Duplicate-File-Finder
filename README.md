@@ -198,17 +198,6 @@ This is the most important part of the tool.
 | **GroupId** | Duplicate group identifier |
 | **FullHash** | SHA-256 hash |
 
-### 8.3 Long Text Handling (No Horizontal Scrollbar)
-
-For **FullPath**, **KeepPath**, and **FullHash**:
-
-- `Width="2*"` (or similar)
-- `TextWrapping="NoWrap"`
-- `TextTrimming="CharacterEllipsis"`
-- Tooltip shows the full value on hover
-
-This keeps the grid clean and readable while preserving access to full data.
-
 ---
 
 ## 9. Filter Box
