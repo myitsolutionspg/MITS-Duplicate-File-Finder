@@ -267,4 +267,4 @@ All outputs are written to the `out` directory:
 ## 14. Disclaimer
 
 This tool can move or delete files. Always review CSV outputs and test with WhatIf mode first.  
-My IT Solutions (PNG) Ltd and the author are not liable for data loss due to misuse.
+My IT Solutions (PNG) and the author are not liable for data loss due to misuse.
